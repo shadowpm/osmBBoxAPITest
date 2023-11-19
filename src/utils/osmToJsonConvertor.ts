@@ -1,15 +1,15 @@
-import osmtogeojson from 'osmtogeojson';
+import osmtogeojson from "osmtogeojson";
 
 const stringToXMLDom = (x: string): Document => {
-	let xmlDoc=null;
-	let parser=new DOMParser();
-	xmlDoc=parser.parseFromString(x,"text/xml");
+  let xmlDoc = null;
+  let parser = new DOMParser();
+  xmlDoc = parser.parseFromString(x, "text/xml");
 
-	return xmlDoc;
-}
+  return xmlDoc;
+};
 
 const convertOSMtoGeojsonString = (osm: string): string => {
-	return JSON.stringify(osmtogeojson(stringToXMLDom(osm)))
-}
+  return JSON.stringify(osmtogeojson(stringToXMLDom(osm)));
+};
 
-export default convertOSMtoGeojsonString
+export default convertOSMtoGeojsonString;
