@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## osm to GeoJSON format convertor
+
+This project is a web application developed using the React.js framework. The main functionality of the application is to make a call to the OpenStreetMap API, retrieve information in "osm" format, convert it to "GeoJSON," and display the dataset in a user-friendly manner.
+
+To use the application, you can enter the 4 specific coordinates, "left" (the longitude of the left (westernmost) side of the bounding box), "bottom" (the latitude of the bottom (southernmost) side of the bounding box), "right" (the longitude of the right (easternmost) side of the bounding box) and, "top" (the latitude of the top (northernmost) side of the bounding box), and in return get the converted "osm" to "GeoJSON" format.
+
 ## Available Scripts
 
 In the project directory, you can run:
