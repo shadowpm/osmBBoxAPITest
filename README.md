@@ -25,6 +25,11 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run format`
+
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+By running this command, you will format the code so that it's all the way syntactically consistant.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
